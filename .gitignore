@@ -1,0 +1,15 @@
+# Node Modules
+node_modules/
+
+# npm dependencies
+package-lock.json
+yarn.lock
+
+# VSC files
+.vscode/
+
+# Generated files
+*.vsix
+
+# Logs
+npm-debug.log*

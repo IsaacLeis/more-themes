@@ -1,0 +1,15 @@
+# Keep the essentials
+**
+!README.md
+!LICENSE
+!package.json
+!themes/**
+!images/**
+
+# Ignore
+.vscode/**
+node_modules/**
+*.vsix
+src/**
+tests/**
+CHANGELOG.md

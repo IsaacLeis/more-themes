@@ -1,0 +1,27 @@
+{
+  "name": "more-themes",
+  "displayName": "More Themes",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "IsaacLeis",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Mode Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_mode_theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license":""
+}
