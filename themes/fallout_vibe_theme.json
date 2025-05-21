@@ -1,11 +1,11 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Hacker Contrast",
+  "name": "Fallou Vibe",
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
     // === Editor ===
-    "editor.background": "#0D0F11",
+    "editor.background": "#1e271c",
     "editor.foreground": "#39FF14",
     "editorLineNumber.foreground": "#35972c",
     "editorCursor.foreground": "#13d383",

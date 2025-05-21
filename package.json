@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Dark Mode Theme",
+        "label": "Fallout Vibe Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_mode_theme.json"
+        "path": "./themes/fallout_vibe_theme.json"
       }
     ]
   },
