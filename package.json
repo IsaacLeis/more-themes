@@ -3,7 +3,7 @@
   "displayName": "More Themes",
   "description": "",
   "version": "0.0.1",
-  "publisher": "ISLEGAs",
+  "publisher": "islega-code",
   "engines": {
     "vscode": "^1.50.0"
   },
