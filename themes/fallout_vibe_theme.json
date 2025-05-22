@@ -34,14 +34,14 @@
     "editorGutter.deletedBackground": "#E71D36",
 
     // === Activity Bar ===
-    "activityBar.background": "#0D0F11",
+    "activityBar.background": "#1e271c",
     "activityBar.foreground": "#39FF14",
     "activityBar.border": "#0D0F11",
     "activityBarBadge.background": "#7ae65f",
     "activityBarBadge.foreground": "#0D0F11",
 
     // === Side Bar / Explorer ===
-    "sideBar.background": "#0D0F11",
+    "sideBar.background": "#172c12",
     "sideBar.foreground": "#39FF14",
     "sideBar.border": "#0D0F11",
     "sideBarTitle.foreground": "#39FF14",
@@ -201,7 +201,7 @@
     }
   ],
   "semanticTokenColors": {
-    "variable.readonly": "#757575",
+    "variable.readonly": "#e28445",
     "variable": "#39FF14",
     "parameter": "#39FF14",
     "property": "#7EFDB5",
