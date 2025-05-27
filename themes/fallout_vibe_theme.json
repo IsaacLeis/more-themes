@@ -5,9 +5,9 @@
   "semanticHighlighting": true,
   "colors": {
     // === Editor ===
-    "editor.background": "#1e271c",
-    "editor.foreground": "#39FF14",
-    "editorLineNumber.foreground": "#35972c",
+    "editor.background": "#132413",
+    "editor.foreground": "#51FF9F",
+    "editorLineNumber.foreground": "#00E064",
     "editorCursor.foreground": "#13d383",
     "editor.selectionBackground": "#39FF1444",
     "editor.inactiveSelectionBackground": "#39FF1122",
@@ -128,7 +128,7 @@
 
     // === Terminal ===
     "terminal.background": "#0D0F11",
-    "terminal.foreground": "#39FF14",
+    "terminal.foreground": "#4798b1",
     "terminalCursor.background": "#1cf5ad",
     "terminalCursor.foreground": "#8ae93c",
 
@@ -151,29 +151,16 @@
     {
       "scope": ["string", "constant.other.symbol"],
       "settings": {
-        "foreground": "#e0aa5d"
+        "foreground": "#bce670"
       }
     },
-    // Modules
-    {
-      "scope": ["support.module.python","support.module","entity.name.namespace.python"],
-      "settings": {"foreground": "#ff51e8","fontStyle": "bold"}
-    },
-    // Numbers & Booleans
+    // Numbers & Booleans    
     {
       "scope": ["constant.numeric", "constant.language.boolean"],
       "settings": {
-        "foreground": "#F1FA8C"
+        "foreground": "#FFB642"
       }
-    },
-    // Keywords & Storage
-    {
-      "scope": ["keyword", "storage.type", "storage.modifier"],
-      "settings": {
-        "foreground": "#923d92",
-        "fontStyle": "bold"
-      }
-    },
+    },    
     // Decorators
     {
       "scope": [
@@ -182,71 +169,7 @@
         "entity.name.function.decorator.python"
       ],
       "settings": {
-        "foreground": "#f371ff"
-      }
-    },
-    // Attributes & Properties
-    {
-      "scope": [
-        "variable.other.property.python",
-        "variable.other.member.python",
-        "meta.attribute.python"
-      ],
-      "settings": {
-        "foreground": "#7EFDB5"
-      }
-    },
-    // Types & Classes
-    {
-      "scope": ["entity.name.type", "support.class"],
-      "settings": {
-        "foreground": "#00FFFF"
-      }
-    },
-    // Constants & Variables
-    {
-      "scope": ["entity.name.variable", "variable.other.constant"],
-      "settings": {
-        "foreground": "#39FF14"
-      }
-    },
-    // Python Built-in Functions
-    {
-      "scope": [
-        "support.function.builtin.python",
-        "support.function.builtin",
-        "meta.function-call.python"
-      ],
-      "settings": {
-        "foreground": "#f0f326"
-      }
-    },
-    // Python Function Parameters
-    {
-      "scope": [
-        "variable.parameter.python",
-        "variable.parameter",
-        "meta.function.parameters.python"
-      ],
-      "settings": {
-        "foreground": "#f6caff"
-      }
-    },
-    // Python User-defined Functions
-    {
-      "scope": [
-        "entity.name.function.python",
-        "meta.function.declaration.python"
-      ],
-      "settings": {
-        "foreground": "#81ce77"
-      }
-    },
-    // Generic Functions (fallback)
-    {
-      "scope": ["entity.name.function", "support.function"],
-      "settings": {
-        "foreground": "#eeff00"
+        "foreground": "#FF6A00"
       }
     },
     // Operators & Punctuation
@@ -265,22 +188,39 @@
       }
     }
   ],
-
   "semanticTokenColors": {
-    "variable.readonly":         "#e28445",
-    "variable":                  "#39FF14",
-    "parameter":                 "#2bff00",
-    "property":                  "#7EFDB5",
-    "function":                  "#d4ff15",
-    "function.defaultLibrary":   "#f0f326",
-    "method":                    "#55C2C2",
-    "class":                     "#00FFFF",
-    "enum":                      "#00FFFF",
-    "interface":                 "#00FFFF",
-    "namespace":                 "#ff85d6",
-    "type":                      "#00FFFF",
-    "struct":                    "#00FFFF",
-    "event":                     "#FFFF00",
-    "operator":                  "#BD93F9"
-  }
+    // Built-in functions
+    "function.defaultLibrary": "#FFB642",
+
+    // User functions & methods
+    "function":                "#39FF14",
+    "method":                  "#00FFFF",
+
+    // Parameters
+    "parameter":               "#c06422",
+
+    // Variables (lectura/escritura)
+    "variable.readonly":       "#7EFDB5",
+    "variable":                "#39FF14",
+
+    // Properties / atributos
+    "property":                "#7EFDB5",
+
+    // Types & classes
+    "type.defaultLibrary":     "#FFB642",
+    "type":                    "#00FFFF",
+    "class":                   "#00FFFF",
+    "enum":                    "#00FFFF",
+    "interface":               "#00FFFF",
+    "namespace":               "#C0FFFF",
+
+    // Constants & literals
+    "constant":                "#FFB642",
+
+    // Operators & punctuation
+    "operator":                "#2ECFFF",
+
+    // Invalid / deprecated
+    "invalid":                 "#E71D36"
+  } 
 }
