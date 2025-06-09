@@ -16,6 +16,11 @@
         "label": "Fallout Vibe Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/fallout_vibe_theme.json"
+      },
+      {
+        "label": "Coding Night Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/coding_night_theme.json"
       }
     ]
   },
