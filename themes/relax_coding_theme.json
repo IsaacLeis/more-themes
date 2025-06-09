@@ -1,0 +1,136 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Relax Coding Theme",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    // === Editor ===
+    "editor.background": "#1f2335",
+    "editor.foreground": "#e0def4",
+    "editorLineNumber.foreground": "#6e6a86",
+    "editorCursor.foreground": "#c0caf5",
+    "editor.selectionBackground": "#34364a",
+    "editor.inactiveSelectionBackground": "#34364a80",
+    "editor.lineHighlightBackground": "#2a2c3d",
+    "editorWhitespace.foreground": "#44415c",
+    "editorIndentGuide.background1": "#44415c",
+    "editorIndentGuide.activeBackground1": "#7aa2f7",
+    "editorBracketMatch.border": "#7aa2f7",
+    "editorOverviewRuler.border": "#1f2335",
+    "editorError.foreground": "#f7768e",
+    "editorWarning.foreground": "#e0af68",
+
+    // === Activity Bar ===
+    "activityBar.background": "#343948",
+    "activityBar.foreground": "#e0def4",
+    "activityBarBadge.background": "#7dcfff",
+    "activityBarBadge.foreground": "#343948",
+
+    // === Side Bar / Explorer ===
+    "sideBar.background": "#2c2f42",
+    "sideBar.foreground": "#e0def4",
+    "sideBarSectionHeader.background": "#34364a",
+    "list.hoverBackground": "#34364a",
+    "list.activeSelectionBackground": "#3f4155",
+
+    // === Title Bar / Menu Bar ===
+    "titleBar.activeBackground": "#292c3e",
+    "titleBar.activeForeground": "#e0def4",
+    "menu.background": "#2c2f42",
+    "menu.foreground": "#e0def4",
+
+    // === Status Bar ===
+    "statusBar.background": "#292c3e",
+    "statusBar.foreground": "#e0def4",
+    "statusBar.debuggingBackground": "#f7768e",
+    "statusBar.debuggingForeground": "#292c3e",
+
+    // === Panel ===
+    "panel.background": "#2c2f42",
+    "panel.border": "#292c3e",
+
+    // === Quick Input ===
+    "quickInput.background": "#2c2f42",
+    "quickInput.foreground": "#e0def4",
+
+    // === Input Controls ===
+    "input.background": "#34364a",
+    "input.foreground": "#e0def4",
+
+    // === Dropdowns & Buttons ===
+    "dropdown.background": "#2c2f42",
+    "button.background": "#a9b1d6",
+    "button.foreground": "#292c3e",
+    "button.hoverBackground": "#c0caf5",
+
+    // === Scrollbars ===
+    "scrollbarSlider.background": "#44415c80",
+    "scrollbarSlider.hoverBackground": "#44415cb0",
+    "scrollbarSlider.activeBackground": "#44415cd0",
+
+    // === Tabs ===
+    "tab.activeBackground": "#292c3e",
+    "tab.activeForeground": "#e0def4",
+    "tab.inactiveBackground": "#2c2f42",
+    "tab.inactiveForeground": "#6e6a86",
+    "tab.activeBorder": "#7aa2f7",
+
+    // === Diff ===
+    "diffEditor.insertedTextBackground": "#9ece6a33",
+    "diffEditor.removedTextBackground": "#f7768e33",
+
+    // === Terminal ===
+    "terminal.background": "#1f2335",
+    "terminal.foreground": "#e0def4",
+    "terminalCursor.foreground": "#c0caf5"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#56526e", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": { "foreground": "#a3be88" }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language.boolean"],
+      "settings": { "foreground": "#ebcb8b" }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#bf616a", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#7dcfff" }
+    },
+    {
+      "scope": ["entity.name.type.class", "support.class"],
+      "settings": { "foreground": "#b48ead" }
+    },
+    {
+      "scope": ["variable", "entity.name.variable"],
+      "settings": { "foreground": "#8fbcbb" }
+    },
+    {
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": { "foreground": "#f7768e", "fontStyle": "underline" }
+    }
+  ],
+  "semanticTokenColors": {
+    "function": "#7dcfff",
+    "method": "#7dcfff",
+    "parameter": "#ebcb8b",
+    "variable.readonly": "#a3be88",
+    "variable": "#8fbcbb",
+    "property": "#8fbcbb",
+    "type": "#b48ead",
+    "class": "#b48ead",
+    "enum": "#b48ead",
+    "namespace": "#7dcfff",
+    "constant": "#ebcb8b",
+    "operator": "#bf616a",
+    "invalid": "#f7768e"
+  }
+}

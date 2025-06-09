@@ -21,6 +21,16 @@
         "label": "Coding Night Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/coding_night_theme.json"
+      },
+      {
+        "label": "Doom Vibe Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/doom_vibe_theme.json"
+      },
+      {
+        "label": "Relax Coding Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/relax_coding_theme.json"
       }
     ]
   },
