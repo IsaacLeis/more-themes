@@ -1,0 +1,136 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Pink Party Theme",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    // === Editor ===
+    "editor.background": "#3a0e31f6",
+    "editor.foreground": "#dd61ee",
+    "editorLineNumber.foreground": "#e699df",
+    "editorCursor.foreground": "#ff18ff",
+    "editor.selectionBackground": "#280a2b",
+    "editor.inactiveSelectionBackground": "#34364a80",
+    "editor.lineHighlightBackground": "#2a2c3d",
+    "editorWhitespace.foreground": "#44415c",
+    "editorIndentGuide.background1": "#ff00aa",
+    "editorIndentGuide.activeBackground1": "#ff00aa",
+    "editorBracketMatch.border": "#fcb2d5",
+    "editorOverviewRuler.border": "#dd68f5",
+    "editorError.foreground": "#fd002e",
+    "editorWarning.foreground": "#fbff00",
+
+    // === Activity Bar ===
+    "activityBar.background": "#21012b",
+    "activityBar.foreground": "#f6b4ff",
+    "activityBarBadge.background": "#af0ccf",
+    "activityBarBadge.foreground": "#fcc3fc",
+
+    // === Side Bar / Explorer ===
+    "sideBar.background": "#21012b",
+    "sideBar.foreground": "#ffb2f9",
+    "sideBarSectionHeader.background": "#66007a",
+    "list.hoverBackground": "#34364a",
+    "list.activeSelectionBackground": "#3f4155",
+
+    // === Title Bar / Menu Bar ===
+    "titleBar.activeBackground": "#562868",
+    "titleBar.activeForeground": "#e0def4",
+    "menu.background": "#2f0235",
+    "menu.foreground": "#e8d2fc",
+
+    // === Status Bar ===
+    "statusBar.background": "#2e1730",
+    "statusBar.foreground": "#e0def4",
+    "statusBar.debuggingBackground": "#f7768e",
+    "statusBar.debuggingForeground": "#292c3e",
+
+    // === Panel ===
+    "panel.background": "#580d6bb6",
+    "panel.border": "#8c25b4",
+
+    // === Quick Input ===
+    "quickInput.background": "#ffa4fa",
+    "quickInput.foreground": "#330026",
+
+    // === Input Controls ===
+    "input.background": "#34364a",
+    "input.foreground": "#e0def4",
+
+    // === Dropdowns & Buttons ===
+    "dropdown.background": "#2c2f42",
+    "button.background": "#a9b1d6",
+    "button.foreground": "#292c3e",
+    "button.hoverBackground": "#c0caf5",
+
+    // === Scrollbars ===
+    "scrollbarSlider.background": "#44415c80",
+    "scrollbarSlider.hoverBackground": "#44415cb0",
+    "scrollbarSlider.activeBackground": "#44415cd0",
+
+    // === Tabs ===
+    "tab.activeBackground": "#3d0534",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveBackground": "#2b0229",
+    "tab.inactiveForeground": "#5b4961",
+    "tab.activeBorder": "#ff7aed",
+
+    // === Diff ===
+    "diffEditor.insertedTextBackground": "#703e7a42",
+    "diffEditor.removedTextBackground": "#9e48828c",
+
+    // === Terminal ===
+    "terminal.background": "#240f29",
+    "terminal.foreground": "#e9a1d7",
+    "terminalCursor.foreground": "#ff87b9"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": { "foreground": "#9377ad", "fontStyle": "italic" }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": { "foreground": "#fdd1f4" }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language.boolean"],
+      "settings": { "foreground": "#aa62cc" }
+    },
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#ff8fe3", "fontStyle": "bold" }
+    },
+    {
+      "scope": ["entity.name.function"],
+      "settings": { "foreground": "#bb98e4" }
+    },
+    {
+      "scope": ["entity.name.type.class", "support.class"],
+      "settings": { "foreground": "#806a7c" }
+    },
+    {
+      "scope": ["variable", "entity.name.variable"],
+      "settings": { "foreground": "#e2a4ff" }
+    },
+    {
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": { "foreground": "#f7768e", "fontStyle": "underline" }
+    }
+  ],
+  "semanticTokenColors": {
+    "function": "#a1d2ff",
+    "method": "#7dcfff",
+    "parameter": "#f3ab67",
+    "variable.readonly": "#a3be88",
+    "variable": "#9acbf3",
+    "property": "#f2f7b0",
+    "type": "#b48ead",
+    "class": "#d6faac",
+    "enum": "#f0b6e5",
+    "namespace": "#61cdd4",
+    "constant": "#ffcca2",
+    "operator": "#f070e9",
+    "invalid": "#f7768e"
+  }
+}

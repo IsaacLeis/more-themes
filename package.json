@@ -2,7 +2,7 @@
   "name": "more-themes",
   "displayName": "More Themes",
   "description": "",
-  "version": "0.4.1",
+  "version": "0.5.1",
   "publisher": "islega-code",
   "engines": {
     "vscode": "^1.50.0"
@@ -31,6 +31,11 @@
         "label": "Relax Coding Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/relax_coding_theme.json"
+      },
+      {
+        "label": "Pink Party Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pink_party_theme.json"
       }
     ]
   },
