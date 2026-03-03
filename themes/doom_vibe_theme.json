@@ -1,89 +1,123 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Hellfire Dark",
+  "name": "DOOM Hellfire",
   "type": "dark",
   "semanticHighlighting": true,
+
   "colors": {
-    // === Editor ===
     "editor.background": "#1a0e0e",
     "editor.foreground": "#e0e0e0",
     "editorLineNumber.foreground": "#6e2e2e",
+    "editorLineNumber.activeForeground": "#ffffff",
+
     "editorCursor.foreground": "#ff4d4d",
     "editor.selectionBackground": "#6e2e2e80",
     "editor.inactiveSelectionBackground": "#6e2e2e40",
     "editor.lineHighlightBackground": "#2b1a1a80",
     "editorWhitespace.foreground": "#3b3b3b",
+
     "editorIndentGuide.background1": "#3b3b3b",
     "editorIndentGuide.activeBackground1": "#ff4d4d",
     "editorBracketMatch.border": "#da70d6",
-    "editorOverviewRuler.border": "#1a0e0e",
+
     "editorError.foreground": "#ff1a1a",
     "editorWarning.foreground": "#ffae42",
 
-    // === Activity Bar ===
+    "editor.findMatchBackground": "#ffae4266",
+    "editor.findMatchHighlightBackground": "#ffae4233",
+    "editor.wordHighlightBackground": "#da70d622",
+    "editor.wordHighlightStrongBackground": "#da70d644",
+
     "activityBar.background": "#2b1a1a",
     "activityBar.foreground": "#e0e0e0",
     "activityBarBadge.background": "#ff4d4d",
     "activityBarBadge.foreground": "#1a0e0e",
 
-    // === Side Bar / Explorer ===
     "sideBar.background": "#2b1a1a",
     "sideBar.foreground": "#e0e0e0",
     "sideBarSectionHeader.background": "#2b1a1a",
+    "sideBarSectionHeader.foreground": "#ffffff",
     "list.hoverBackground": "#3b1f1f",
     "list.activeSelectionBackground": "#4d2a2a",
+    "list.activeSelectionForeground": "#ffffff",
 
-    // === Title Bar / Menu Bar ===
     "titleBar.activeBackground": "#1a0e0e",
     "titleBar.activeForeground": "#e0e0e0",
+    "titleBar.inactiveBackground": "#2b1a1a",
+    "titleBar.inactiveForeground": "#a0a0a0",
+
     "menu.background": "#2b1a1a",
     "menu.foreground": "#e0e0e0",
+    "menu.selectionBackground": "#3b1f1f",
+    "menu.selectionForeground": "#ffffff",
 
-    // === Status Bar ===
     "statusBar.background": "#2b1a1a",
     "statusBar.foreground": "#e0e0e0",
     "statusBar.debuggingBackground": "#ff1a1a",
     "statusBar.debuggingForeground": "#1a0e0e",
 
-    // === Panel ===
     "panel.background": "#2b1a1a",
     "panel.border": "#1a0e0e",
+    "panelTitle.activeBorder": "#ff4d4d",
+    "panelTitle.activeForeground": "#ffffff",
+    "panelTitle.inactiveForeground": "#a0a0a0",
 
-    // === Quick Input ===
     "quickInput.background": "#2b1a1a",
-    "quickInput.foreground": "#e0e0e0",
+    "quickInput.foreground": "#ffffff",
+    "quickInputList.focusBackground": "#3b1f1f",
+    "quickInputList.focusForeground": "#ffffff",
 
-    // === Input Controls ===
     "input.background": "#3b1f1f",
-    "input.foreground": "#e0e0e0",
+    "input.foreground": "#ffffff",
+    "input.placeholderForeground": "#a0a0a0",
+    "inputOption.activeBorder": "#ff4d4d",
 
-    // === Dropdowns & Buttons ===
     "dropdown.background": "#2b1a1a",
+    "dropdown.foreground": "#ffffff",
+
     "button.background": "#ff4d4d",
     "button.foreground": "#1a0e0e",
     "button.hoverBackground": "#ff6666",
 
-    // === Scrollbars ===
     "scrollbarSlider.background": "#4d2a2a80",
     "scrollbarSlider.hoverBackground": "#4d2a2ab0",
     "scrollbarSlider.activeBackground": "#4d2a2ad0",
 
-    // === Tabs ===
     "tab.activeBackground": "#1a0e0e",
     "tab.activeForeground": "#ffffff",
     "tab.inactiveBackground": "#2b1a1a",
     "tab.inactiveForeground": "#a0a0a0",
     "tab.activeBorder": "#ff4d4d",
 
-    // === Diff ===
     "diffEditor.insertedTextBackground": "#50fa7b33",
     "diffEditor.removedTextBackground": "#ff1a1a33",
 
-    // === Terminal ===
     "terminal.background": "#1a0e0e",
     "terminal.foreground": "#e0e0e0",
-    "terminalCursor.foreground": "#ff4d4d"
+    "terminalCursor.foreground": "#ff4d4d",
+
+    "editorHoverWidget.background": "#2b1a1a",
+    "editorSuggestWidget.background": "#2b1a1a",
+    "editorSuggestWidget.selectedBackground": "#3b1f1f",
+    "editorSuggestWidget.highlightForeground": "#ffae42",
+
+    "icon.foreground": "#e0e0e0",
+
+    "toolbar.hoverBackground": "#3b1f1f",
+    "toolbar.activeBackground": "#4d2a2a",
+
+    "editorGroupHeader.tabsBackground": "#1a0e0e",
+    "editorGroupHeader.noTabsBackground": "#1a0e0e",
+    "editorGroupHeader.tabsBorder": "#1a0e0e",
+    "editorGroup.border": "#1a0e0e",
+
+    "commandCenter.foreground": "#e0e0e0",
+    "commandCenter.activeForeground": "#ffffff",
+    "commandCenter.background": "#2b1a1a",
+    "commandCenter.activeBackground": "#3b1f1f",
+    "commandCenter.border": "#1a0e0e"
   },
+
   "tokenColors": [
     {
       "scope": ["comment", "punctuation.definition.comment"],
@@ -115,19 +149,24 @@
     },
     {
       "scope": ["invalid", "invalid.deprecated"],
-      "settings": { "foreground": "#ffffff"}
+      "settings": { "foreground": "#ff1a1a", "fontStyle": "underline" }
+    },
+    {
+      "scope": ["meta.import.python", "support.type.python", "entity.name.module.python"],
+      "settings": { "foreground": "#ffae42", "fontStyle": "bold" }
     }
   ],
+
   "semanticTokenColors": {
     "function": "#da70d6",
     "method": "#da70d6",
     "parameter": "#ffb86c",
     "variable.readonly": "#ff884d",
     "variable": "#7ec8e3",
-    "property": "#7ec8e3",
+    "property": "#a6ddf0",
     "type": "#ffb86c",
     "class": "#ffb86c",
-    "enum": "#ffb86c",
+    "enum": "#f2d479",
     "namespace": "#da70d6",
     "constant": "#ff884d",
     "operator": "#ff4d4d",

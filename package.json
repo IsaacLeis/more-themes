@@ -2,7 +2,7 @@
   "name": "more-themes",
   "displayName": "More Themes",
   "description": "",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "publisher": "islega-code",
   "engines": {
     "vscode": "^1.50.0"
@@ -13,27 +13,27 @@
   "contributes": {
     "themes": [
       {
-        "label": "Fallout Vibe Theme",
+        "label": "Fallout Vibes",
         "uiTheme": "vs-dark",
         "path": "./themes/fallout_vibe_theme.json"
       },
       {
-        "label": "Coding Night Theme",
+        "label": "Coding Night",
         "uiTheme": "vs-dark",
         "path": "./themes/coding_night_theme.json"
       },
       {
-        "label": "Doom Vibe Theme",
+        "label": "Doom Vibes",
         "uiTheme": "vs-dark",
         "path": "./themes/doom_vibe_theme.json"
       },
       {
-        "label": "Relax Coding Theme",
+        "label": "Relax Coding",
         "uiTheme": "vs-dark",
         "path": "./themes/relax_coding_theme.json"
       },
       {
-        "label": "Pink Party Theme",
+        "label": "Pink Party",
         "uiTheme": "vs-dark",
         "path": "./themes/pink_party_theme.json"
       }
